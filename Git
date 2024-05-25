@@ -1,0 +1,55 @@
+Git command..............
+
+To connect local machine to git 
+
+---> git config --global user.email "yourEmailID"
+
+To add git repo 
+
+---> git remote add origin <git repo url>
+
+To fetch all the changes made in git repo
+
+---> git fetch --all
+
+To check remote repo 
+
+---> git remote -v
+
+Rename or Update the Existing Remote:
+
+---> git remote set-url origin https://new-url-to-repository
+
+To remove 
+
+---> git remote remove origin
+
+After removing the remote, you can add the new one using:
+
+---> git remote add origin https://github.com/Dhiraj111/DemoGIT.git
+
+Remove Local Repository:
+
+---> rm -rf your-repo-name
+
+To delete remote branch 
+
+---> git push origin --delete branch-name
+
+Check Remote Branches:
+
+---> git branch -r
+
+###########################################################################
+
+how to merge to branches e.g demo to main 
+
+---> git fetch origin
+     git checkout main
+     git pull origin main
+     git merge demo
+     git push origin main
+
+
+
+
